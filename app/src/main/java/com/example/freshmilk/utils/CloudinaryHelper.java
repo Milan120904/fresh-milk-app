@@ -33,7 +33,7 @@ public class CloudinaryHelper {
     private static final String TAG = "CloudinaryHelper";
 
     // ========== CONFIGURE THESE VALUES ==========
-    // TODO: Replace with your actual Cloudinary credentials
+
     private static final String CLOUD_NAME = "demnvdjgk";
     private static final String UPLOAD_PRESET = "Fresh Milk";
     // =============================================
