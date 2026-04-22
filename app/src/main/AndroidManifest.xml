@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FreshMilk">
+
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC1enoPLpf2ebHMBVUi718wsSHO_x9aCRg" />
+
+        <!-- FileProvider for Camera -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Splash Screen (Launcher) -->
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FreshMilk">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth Activities -->
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Customer Activities -->
+        <activity
+            android:name=".activities.AddCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CustomerDetailActivity"
+            android:exported="false" />
+
+        <!-- Daily Entry -->
+        <activity
+            android:name=".activities.DailyEntryActivity"
+            android:exported="false" />
+
+        <!-- Billing -->
+        <activity
+            android:name=".activities.BillActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddExtraChargeActivity"
+            android:exported="false" />
+
+        <!-- Customer Portal -->
+        <activity
+            android:name=".activities.CustomerMainActivity"
+            android:exported="false" />
+
+        <!-- Detail Activities -->
+        <activity
+            android:name=".activities.CustomerListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TodayDeliveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RevenueDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PendingPaymentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MilkDeliveryDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MapPickerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.VendorPaymentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.VendorSettingsActivity"
+            android:exported="false" />
+
+        <!-- Screenshot Upload & Verification -->
+        <activity
+            android:name=".activities.ScreenshotUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PaymentVerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ScreenshotViewerActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "51940775995",
+    "project_id": "fresh-milk-6c92d",
+    "storage_bucket": "fresh-milk-6c92d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51940775995:android:eff23036c03de29282241e",
+        "android_client_info": {
+          "package_name": "com.example.freshmilk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxq8qo6Zd74T7_EfuRxFV91dTj0tr1rXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

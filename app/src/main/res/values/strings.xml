@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">FreshMilk</string>
+
+    <!-- Auth -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="sign_in_to_continue">Sign in to continue managing deliveries</string>
+    <string name="create_account">Create Account</string>
+    <string name="join_freshmilk">Join FreshMilk to manage your deliveries</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="sign_in">Sign In</string>
+    <string name="register_as">Register as</string>
+    <string name="role_vendor">Vendor</string>
+    <string name="role_customer">Customer</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_customers">Customers</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_bills">Bills</string>
+
+    <!-- Home -->
+    <string name="dashboard">Dashboard</string>
+    <string name="total_customers">Total Customers</string>
+    <string name="today_deliveries">Today\'s Deliveries</string>
+    <string name="monthly_revenue">Monthly Revenue</string>
+    <string name="pending_payments">Pending Payments</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="new_customer">New Customer</string>
+    <string name="view_bills">View Bills</string>
+
+    <!-- Customers -->
+    <string name="search_customers">Search customers…</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="edit_customer">Edit Customer</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="milk_type">Milk Type</string>
+    <string name="default_quantity">Default Quantity (Liters)</string>
+    <string name="rate_per_liter">Rate per Liter (₹)</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_customers">No customers yet. Add your first customer!</string>
+
+    <!-- Milk Types -->
+    <string name="cow_milk">Cow Milk</string>
+    <string name="buffalo_milk">Buffalo Milk</string>
+    <string name="mixed_milk">Mixed Milk</string>
+
+    <!-- Daily Entry -->
+    <string name="daily_entry">Daily Entry</string>
+    <string name="daily_entries">Daily Entries</string>
+    <string name="select_date">Select Date</string>
+    <string name="morning_quantity">Morning Qty (L)</string>
+    <string name="evening_quantity">Evening Qty (L)</string>
+    <string name="total_quantity">Total Quantity</string>
+    <string name="daily_amount">Daily Amount</string>
+    <string name="save_entry">Save Entry</string>
+    <string name="no_entries">No entries yet for this customer.</string>
+    <string name="today_delivery">Today\'s Delivery</string>
+    <string name="no_delivery_today">No delivery recorded today</string>
+    <string name="my_bills">My Bills</string>
+
+    <!-- Billing -->
+    <string name="monthly_bill">Monthly Bill</string>
+    <string name="bill_details">Bill Details</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="paid_amount">Paid Amount</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="mark_as_paid">Mark as Paid</string>
+    <string name="mark_as_unpaid">Mark as Unpaid</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="generate_bill">Generate Bill</string>
+    <string name="select_month">Select Month</string>
+
+    <!-- Reports -->
+    <string name="reports">Reports</string>
+    <string name="monthly_earnings">Monthly Earnings</string>
+    <string name="export_history">Export History</string>
+    <string name="total_earned">Total Earned</string>
+    <string name="total_pending">Total Pending</string>
+    <string name="collection_rate">Collection Rate</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirm">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="app_version">Version 1.0</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="field_required">This field is required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="password_min_length">Password must be at least 6 characters</string>
+    <string name="passwords_dont_match">Passwords don\'t match</string>
+    <string name="invalid_phone">Please enter a valid phone number</string>
+    <string name="customer_added">Customer added successfully</string>
+    <string name="customer_updated">Customer updated successfully</string>
+    <string name="customer_deleted">Customer deleted successfully</string>
+    <string name="entry_saved">Entry saved successfully</string>
+    <string name="bill_generated">Bill generated successfully</string>
+    <string name="payment_updated">Payment status updated</string>
+
+    <!-- Vendor-Customer Linking -->
+    <string name="vendor_phone_number">Vendor\'s Phone Number</string>
+    <string name="vendor_not_found">Vendor not found. Please check the phone number.</string>
+    <string name="customer_linked_success">Successfully linked to vendor!</string>
+    <string name="duplicate_customer">A customer with this phone number already exists</string>
+    <string name="enter_vendor_phone">Enter your vendor\'s phone number to connect</string>
+
+    <!-- Detail Screens -->
+    <string name="customer_list">Customer List</string>
+    <string name="today_delivery_list">Today\'s Deliveries</string>
+    <string name="revenue_details">Revenue Details</string>
+    <string name="pending_payments_list">Pending Payments</string>
+    <string name="milk_delivery_details">Milk Delivery Details</string>
+    <string name="payment_status_chart">Payment Status</string>
+    <string name="monthly_breakdown">Monthly Breakdown</string>
+    <string name="no_pending_payments">No pending payments! 🎉</string>
+    <string name="no_milk_entries">No milk entries this month</string>
+
+    <!-- Location -->
+    <string name="pick_location">📍 Pick Location on Map</string>
+    <string name="view_on_map">View on Map</string>
+    <string name="confirm_location">Confirm Location</string>
+    <string name="location_not_set">Location not set</string>
+    <string name="select_location">Select Location</string>
+    <string name="maps_not_installed">Google Maps is not installed. Opening in browser.</string>
+    <string name="location_selected">Location: %.6f, %.6f</string>
+    <string name="location_permission_required">Location permission is required to use this feature</string>
+</resources>

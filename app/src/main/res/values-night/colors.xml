@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors Dark -->
+    <color name="primary">#A5C8FF</color>
+    <color name="primary_dark">#004786</color>
+    <color name="primary_light">#D4E3FF</color>
+    <color name="primary_variant">#A5C8FF</color>
+    <color name="primary_container">#004786</color>
+    <color name="on_primary_container">#D4E3FF</color>
+
+    <!-- Secondary Colors Dark -->
+    <color name="secondary">#7DDC7A</color>
+    <color name="secondary_variant">#7DDC7A</color>
+    <color name="secondary_container">#005313</color>
+    <color name="on_secondary_container">#98F994</color>
+
+    <!-- Tertiary Colors Dark -->
+    <color name="tertiary">#BAC9D3</color>
+    <color name="tertiary_container">#3A4850</color>
+    <color name="on_tertiary_container">#D6E5EF</color>
+
+    <!-- Surface/Background Dark -->
+    <color name="surface">#121212</color>
+    <color name="surface_variant">#2C2C2C</color>
+    <color name="surface_container_lowest">#1E1E1E</color>
+    <color name="surface_container_low">#1E1E1E</color>
+    <color name="surface_container">#252525</color>
+    <color name="surface_container_high">#2C2C2C</color>
+    <color name="surface_container_highest">#333333</color>
+    <color name="background">#121212</color>
+    
+    <!-- Text Dark -->
+    <color name="on_primary">#00315F</color>
+    <color name="on_secondary">#00390B</color>
+    <color name="on_tertiary">#24323A</color>
+    <color name="on_surface">#E0E0E0</color>
+    <color name="on_surface_variant">#BDBDBD</color>
+    <color name="on_surface_medium">#9E9E9E</color>
+    <color name="on_background">#E0E0E0</color>
+
+    <!-- Outline Dark -->
+    <color name="outline">#8D9194</color>
+    <color name="outline_variant">#43474A</color>
+
+    <!-- Error Dark -->
+    <color name="error">#FFB4AB</color>
+    <color name="error_container">#93000A</color>
+    <color name="on_error">#690005</color>
+    <color name="on_error_container">#FFDAD6</color>
+
+    <!-- Card Colors Dark -->
+    <color name="card_blue">#1A3A5C</color>
+    <color name="card_green">#1B3A1B</color>
+    <color name="card_orange">#3E2C0E</color>
+    <color name="card_red">#3E1515</color>
+    <color name="card_amber">#3E2C0E</color>
+
+    <!-- Divider Dark -->
+    <color name="divider">#424242</color>
+
+    <!-- Glass/Frosted Effect Dark -->
+    <color name="glass_white">#B3000000</color>
+    <color name="glass_nav">#D91E1E1E</color>
+
+    <color name="shadow_primary">#55000000</color>
+</resources>
