@@ -92,11 +92,6 @@ FreshMilkApp/
 
 ---
 
-## 📸 Screenshots
-
-> Add your app screenshots here
-
----
 
 ## 🎯 Project Goal
 
